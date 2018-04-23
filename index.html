@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/style.css">
+  <title>GitHub API</title>
+</head>
+<body>
+<header id="header" class="py-4">
+<div class="container">
+  <div class="row">
+    <div class="col mx-auto text-center">
+      <h1 id="header-title">MyMeal Calorie Planner</h1>
+    </div>
+  </div>
+</div>
+</header>
+
+  <section id="meal">
+    <div class="container">
+      <div class="row">
+        <div class="col mx-auto">
+          <div class="content">
+            <h2 class="display-5 my-3">Add Food / Food Calories</h2>
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="food">Food</span>
+            </div>
+            <input type="text" id="foodInput" class="form-control" aria-label="Default">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="calorie">Calorie</span>
+            </div>
+            <input type="number" id="CalInput" class="form-control" aria-label="Default">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01" id="time">Time</label>
+            </div>
+            <select class="custom-select" id="TimeInput">
+              <option selected>Choose...</option>
+              <option value="Breakfast">Breakfast</option>
+              <option value="Lunch">Lunch</option>
+              <option value="Dinner">Dinner</option>
+            </select>
+          </div>
+          <button type="button" id="addBtn" class="btn btn-primary btn-add">Add Food</button>
+          <button type="button" id="editBtn" class="btn btn-primary btn-edit">Edit Food</button>
+          <button type="button" id="removeBtn" class="btn btn-primary btn-remove">Remove Food</button>
+          <button type="button" id="cancelBtn" class="btn btn-primary btn-cancel">Cancel</button>
+        </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mx-auto text-center">
+          <h3 id="count">Total Calories: <span id="total-cal">0</span></h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mx-auto">
+          <div class="content">
+            <ul id="item-list" class="collection">
+
+              <!-- <li class="collection-item d-flex" id="item-0">
+                <strong>Steak Dinner: </strong> <p>1200 Calories</p> <strong>Time: Breakfast</strong>
+                <a href="#" class="secondary-content">
+                  <i class="edit-item fa fa-pencil"></i>
+                </a>
+              </li>
+              <li class="collection-item d-flex" id="item-0">
+                <strong>Cookie: </strong> <p>400 Calories</p> <strong>Time: Dinner</strong>
+                <a href="#" class="secondary-content">
+                  <i class="edit-item fa fa-pencil"></i>
+                </a>
+              </li>
+              <li class="collection-item d-flex" id="item-0">
+                <strong>Eggs: </strong> <p>300 Calories</p> <strong>Time: Lunch</strong>
+                <a href="#" class="secondary-content">
+                  <i class="edit-item fa fa-pencil"></i>
+                </a>
+              </li> -->
+
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col mx-auto text-center">
+          <button type="button" id="ClearBtn" class="btn btn-primary btn-clear">Clear All</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer" class="mt-4 py-2 text-center">
+    <p id="footer-text">MyMeal &copy;	Eat Healthy Live Strong</p>
+  </footer>
+  <script src="app.js"></script>
+  <!-- <script src="build/app.bundle.js"></script> -->
+</body>
+</html>

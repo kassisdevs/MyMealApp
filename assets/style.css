@@ -1,0 +1,125 @@
+
+#header {
+background-color: #00bbe3;
+}
+#header-title {
+  color: #fff;
+  font-weight: 600;
+  line-height: 1.7;
+}
+.content {
+  /* display: none; */
+  margin: 10px 20px;
+  padding: 15px 25px;
+  border: 2px solid #00bbe3;
+  border-radius: 5px;
+}
+
+#food {
+background-color: #00bbe3;
+color: #fff;
+font-weight: 400;
+}
+#calorie {
+  background-color: #00bbe3;
+  color: #fff;
+  font-weight: 400;
+}
+#time {
+  background-color: #00bbe3;
+  color: #fff;
+  font-weight: 400;
+}
+.btn-add {
+  background: #00bbe3;
+  border: 1px solid #00bbe3;
+  font-weight: 400;
+}
+.btn-add:hover {
+  background: #fff;
+  color: #00bbe3;
+  border: 1px solid #00bbe3;
+  font-weight: 400;
+}
+.btn-edit {
+  display: none;
+  background: #ec145b;
+  border: 1px solid #ec145b;
+  font-weight: 400;
+}
+.btn-edit:hover {
+  background: #ec145b;
+  border: 1px solid #ec145b;
+  font-weight: 400;
+}
+.btn-cancel {
+  display: none;
+  background: #6f9a37;
+  border: 1px solid #6f9a37;
+  font-weight: 400;
+}
+.btn-cancel:hover {
+  background: #6f9a37;
+  border: 1px solid #6f9a37;
+  font-weight: 400;
+}
+.btn-remove {
+  display: none;
+  background: #ec145b;
+  border: 1px solid #ec145b;
+  font-weight: 400;
+}
+.btn-remove:hover {
+  background: #ec145b;
+  border: 1px solid #ec145b;
+  font-weight: 400;
+}
+.btn-clear {
+  
+  background: #ec145b;
+  border: 1px solid #ec145b;
+  font-weight: 400;
+}
+.btn-clear:hover {
+  color: #ec145b;
+  background: #fff;
+  border: 1px solid #ec145b;
+  font-weight: 400;
+}
+
+#item-list {
+  list-style: none;
+}
+#count {
+
+  font-size: 30px;
+  font-weight: 700;
+  background-color: #00bbe3;
+  margin: 10px 20px;
+  padding: 10px 25px;
+
+}
+.collection-item {
+  padding: 10px 20px;
+  border-bottom: 1px solid #00bbe3;
+}
+.collection-item strong {
+  display: inline;
+}
+.collection-item p {
+  display: inline;
+  margin: 0 20px;
+}
+.collection-item i {
+  margin: 0 20px;
+  color: #00bbe3;
+}
+#footer {
+  background-color: #00bbe3;
+}
+
+#footer-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+}
